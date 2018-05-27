@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Descripcion:</strong>
+  <%= @solicitud.descripcion %>
+</p>
+
+<p>
+  <strong>Fecha solicitud:</strong>
+  <%= @solicitud.fecha_solicitud %>
+</p>
+
+<p>
+  <strong>Hora:</strong>
+  <%= @solicitud.hora %>
+</p>
+
+<p>
+  <strong>Idtipo solicitud:</strong>
+  <%= @solicitud.idtipo_solicitud %>
+</p>
+
+<p>
+  <strong>Id usuario:</strong>
+  <%= @solicitud.id_usuario %>
+</p>
+
+<p>
+  <strong>Id documento:</strong>
+  <%= @solicitud.id_documento %>
+</p>
+
+<%= link_to 'Edit', edit_solicitud_path(@solicitud) %> |
+<%= link_to 'Back', solicituds_path %>
